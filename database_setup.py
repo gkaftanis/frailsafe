@@ -2,7 +2,7 @@ import arango
 
 arango_db_name='frailSafeProject'
 arango_username='frailsafe_db_user'
-arango_password='frailsafe_gk@1'
+arango_password='frailsafe_db_password'
 
 def database_setup(password,arango_nodes,username='root'):
     client = arango.ArangoClient(hosts=arango_nodes)
